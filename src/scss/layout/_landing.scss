@@ -3,6 +3,7 @@
     display: flex;
     flex-direction: column;
     align-items:center;
+    justify-content: center;
     min-height:calc(100vh - 11rem);
     @media all and (width > 768px){
         min-height:calc(100vh - 6rem);
@@ -11,10 +12,10 @@
 
     &__image{       
         height: 63px;
-        margin: 95px 35px 0 35px;
+        margin-top: 95px;
         @media (min-width:768px){
             height: 107px;
-            margin: 350px 175px 31px 175px;
+            margin: 150px 0px 31px 0px;
             padding: 2px 0 0;
         }
 
@@ -90,7 +91,7 @@
     &__link{
         width: 129px;
         height: 42px;
-        margin: 38px 75px 30px 65px;
+        margin: 38px 0px 30px 0px;
         padding: 10px 20px;
         border-radius: 21px;
         background-color: $mediumColor;
@@ -101,7 +102,7 @@
         color: $white;
         text-decoration: none;
         @media (min-width:768px){
-            margin: 186px 75px 59px 65px;
+            margin: 186px 0px 59px 0px;
         }
         // @media (min-width:1024px){
         //     margin-top: 5%;
